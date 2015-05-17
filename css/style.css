@@ -85,3 +85,8 @@ border-left-color: #111111;
 .fa-chevron-right{
 	position:absolute;top:50%;z-index:5;display:inline-block;
 }
+.logo{
+  max-height: 90px;
+  margin: auto;
+}
+
