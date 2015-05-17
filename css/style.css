@@ -89,4 +89,33 @@ border-left-color: #111111;
   max-height: 90px;
   margin: auto;
 }
+.navbar-default{
+  background-color: #91beed;
+}
 
+@media (min-width: 480px) {
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+}
+
+@media(max-width:500px)  {
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        overflow-x: visible !important;
+    }
+
+    .navbar-collapse.in {
+      overflow-y: auto !important;
+    }
+
+    .collapse.in {
+      display: block !important;
+    }
+
+}
